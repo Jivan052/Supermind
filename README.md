@@ -24,24 +24,23 @@ This project provides a **basic analytics module** to analyze social media engag
 ---
 
 ## 🧩 Workflow Overview
- ![WorkFlow](path_to_screenshot_1)
+ ![WorkFlow](WorkFlow.png)
 
 ### 🖧 Backend Workflow
 1. **📥 Data Ingestion**:
-   - Load mock engagement data (schema: `ID`, `Post Type`, `Likes`, `Comments`, `Shares`, etc.) into Astra DB.
-   - ![Screenshot 1](path_to_screenshot_1)
+   - Loading of mock engagement data (schema: `ID`, `Post Type`, `Likes`, `Comments`, `Shares`, etc.) into Astra DB.
 
 2. **🔍 Data Querying**:
-   - Query Astra DB for average engagement metrics based on post types.
+   - Querying of Astra DB for average engagement metrics based on post types.
    
 3. **🤖 Insights Generation**:
-   - Process metrics using **Langflow** workflows integrated with GPT.
-   - Generate text-based and graphical responses.
-   - ![Screenshot 2](path_to_screenshot_2)
+   - Processing metrics using **Langflow** workflows integrated with GPT.
+   - Generating text-based and graphical responses.
 
 ### 🎨 Frontend Workflow
+
 - **📝 Input Form**:
-  - Allow users to select post types or ask questions about engagement metrics.
+  - Allows users to select post types or ask questions about engagement metrics.
   
 - **📊 Results Display**:
   - Display GPT-generated insights (text-based).
