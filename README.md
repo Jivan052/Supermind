@@ -24,7 +24,8 @@ This project provides a **basic analytics module** to analyze social media engag
 ---
 
 ## 🧩 Workflow Overview
- ![WorkFlow](WorkFlow.png)
+ <img src="WorkFlow.png" alt="WorkFlow" width="50%" height="20%">
+
 
 ### 🖧 Backend Workflow
 1. **📥 Data Ingestion**:
@@ -74,9 +75,13 @@ This project provides a **basic analytics module** to analyze social media engag
 ---
 
 ## 📷 Screenshots and Diagrams
+### 🖥️ User Interface
+![Frontend](website.png)
+
 ### 🖥️ Langflow Workflow
 ![Langflow Workflow](WF_1.png)
 ![Langflow Workflow](WF_2.png)
+![Langflow chat](chat.png)
 
 ### 🗄️ DataStax Astra DB Integration
 ![Astra DB Integration](DB_AS.png)
@@ -85,9 +90,9 @@ This project provides a **basic analytics module** to analyze social media engag
 
 ## 🎥 Demo and Resources
 
-- **🌐 Web Application**: [Link to the Web Application](#) *(API integration pending)*  
-- **🎬 YouTube Walkthrough**: [YouTube Video](#)  
-- **👨‍💻 FindCoder Project Link**: [FindCoder Link](#)
+- **🌐 Web Application**: [[Link to the Web App](https://supermind.vercel.app/)](#) *(API integration pending)*  
+- **🎬 YouTube Walkthrough**: [[YouTube Video](https://youtu.be/N7OWdsmktcg)](#)  
+- **👨‍💻 FindCoder Project Link**: [[FindCoder Link](https://www.findcoder.io/projects/social-media-analytics-module/677ea2468015401a988d9768)](#)
 
 ---
 
@@ -97,12 +102,24 @@ This project provides a **basic analytics module** to analyze social media engag
 - 📊 Add support for more visualization options (e.g., pie charts, heatmaps).
 
 ---
+## 🔚 Conclusion
 
-## 🤝 Contributors
-Prepared by **Jivan Jamdar**
+The **Social Media Engagement Analytics Module** demonstrates the power of integrating cutting-edge technologies like **DataStax Astra DB**, **Langflow**, and **OpenAI GPT-4** to analyze, process, and generate actionable insights from social media data. By combining data storage, querying, and advanced AI workflows, this project provides a scalable and efficient solution for understanding audience engagement.
+
+### Key Takeaways:
+- **Data-Driven Insights**: The module helps identify trends in social media performance, empowering users to make informed decisions.
+- **Scalable Architecture**: Leveraging cloud-based solutions ensures reliability and scalability for large datasets.
+- **User-Friendly Interaction**: The chatbot interface and visualization tools provide an intuitive way for users to engage with data.
+
+This project lays the groundwork for future improvements, such as full frontend-backend integration, enhanced visualization, and more robust chatbot interactions. It showcases the potential of AI and cloud technologies in addressing real-world challenges, making it a valuable tool for businesses and individuals seeking to optimize their social media strategies.
 
 ---
 
-### 📜 License
-This project is open-source under the [MIT License](LICENSE).
+## 🤝 Contributors
+Prepared by **Jivan Jamdar** & Team CodeByte
+<br>
+Happy coding...
+
+---
+
 
