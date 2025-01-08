@@ -65,7 +65,7 @@ function App() {
       <Button 
         variant="contained" 
         color="red" 
-        href="https://github.com"
+        href="hhttps://github.com/Jivan052/Supermind"
         sx={{ alignSelf: 'flex-start', mb: 2 }}
       >
         GitHub
@@ -75,7 +75,7 @@ function App() {
       <Button 
         variant="contained" 
         color="red" 
-        href="https://youtube.com"
+        href="https://youtu.be/N7OWdsmktcg"
         sx={{ alignSelf: 'flex-start', mb: 2 }}
       >
         Youtube
