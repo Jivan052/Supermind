@@ -65,7 +65,7 @@ function App() {
       <Button 
         variant="contained" 
         color="red" 
-        href="hhttps://github.com/Jivan052/Supermind"
+        href="https://github.com/Jivan052/Supermind"
         sx={{ alignSelf: 'flex-start', mb: 2 }}
       >
         GitHub
