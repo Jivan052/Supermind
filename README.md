@@ -24,6 +24,7 @@ This project provides a **basic analytics module** to analyze social media engag
 ---
 
 ## 🧩 Workflow Overview
+ ![WorkFlow](path_to_screenshot_1)
 
 ### 🖧 Backend Workflow
 1. **📥 Data Ingestion**:
@@ -75,10 +76,11 @@ This project provides a **basic analytics module** to analyze social media engag
 
 ## 📷 Screenshots and Diagrams
 ### 🖥️ Langflow Workflow
-![Langflow Workflow](path_to_screenshot_1)
+![Langflow Workflow](WF_1.png)
+![Langflow Workflow](WF_2.png)
 
 ### 🗄️ DataStax Astra DB Integration
-![Astra DB Integration](path_to_screenshot_2)
+![Astra DB Integration](DB_AS.png)
 
 ---
 
