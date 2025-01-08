@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-This project provides a **basic analytics module** to analyze social media engagement data, utilizing cutting-edge technologies for seamless workflow creation, database operations, and insights generation.
+This project provides a **basic analytics module** to analyze social media engagement data, utilizing cutting-edge technologies for seamless workflow creation ( Langflow ), database operations ( Datastax Astra DB ), and insights generation( gpt ).
 
 ### ✨ Key Features
 - **📥 Data Ingestion**: Store and manage mock social media engagement data in **DataStax Astra DB**.
@@ -44,7 +44,7 @@ This project provides a **basic analytics module** to analyze social media engag
   - Allows users to select post types or ask questions about engagement metrics.
   
 - **📊 Results Display**:
-  - Display GPT-generated insights (text-based).
+  - Displays GPT-generated insights (text-based) to user.
   - Visualize engagement data using graphs (e.g., comparisons of likes, shares, comments).
 
 - **💬 Chat Feature**:
@@ -56,18 +56,18 @@ This project provides a **basic analytics module** to analyze social media engag
 ## ⚙️ Implementation Steps
 
 ### 1️⃣ Mock Data Creation
-- Create a schema: `ID`, `Post Type`, `Likes`, `Comments`, `Shares`.
-- Upload the dataset to **DataStax Astra DB**.
+- Created a schema: `ID`, `Post Type`, `Likes`, `Comments`, `Shares` for data.
+- Uploaded this dataset to **DataStax Astra DB**.
 
 ### 2️⃣ Backend Development
 - **🔗 Langflow Workflow**:
-  - Take input from users (e.g., Post Type).
+  - Takes input from users (e.g., Post Type).
   - Query the Astra DB for data.
-  - Process metrics via GPT.
-  - Generate actionable insights as output.
+  - Processes metrics via GPT.
+  - Generates actionable insights as output.
 
 ### 3️⃣ Frontend Development
-- Build the UI with **⚛️ React**:
+- Built the UI with **⚛️ React**:
   - Input form for queries.
   - Visualizations using **📊 Chart.js**.
   - Integration of GPT chat for engagement analysis.
@@ -116,7 +116,9 @@ This project lays the groundwork for future improvements, such as full frontend-
 ---
 
 ## 🤝 Contributors
-Prepared by **Jivan Jamdar** & Team CodeByte
+Prepared by **Jivan Jamdar** & **Team CodeByte**
+<br>
+ <img src="Codebyte.png" alt="logo" width="10%" height="10%" style="border-radius: 15px;">
 <br>
 Happy coding...
 
